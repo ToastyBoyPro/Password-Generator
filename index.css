@@ -7,13 +7,13 @@ html, body {
   padding-top: 20px;
   width: 500px;
   background: #1F2937;
+  font-family: 'Karla';
 }
 
 /* Header Section */
 
 .hero {
   color: white;
-  font-family: 'Karla';
   font-size: 16px;
   line-height: 30px;
   letter-spacing: -0.025em;
@@ -107,7 +107,6 @@ hr {
 #copy {
   margin: auto;
   width: 500px;
-
   text-align: center;
 }
 
