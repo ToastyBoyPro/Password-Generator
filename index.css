@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --neon-green: #55F991;
 }
@@ -142,4 +143,151 @@ hr {
   .results {
     margin-bottom: 20px;
   }
+=======
+:root {
+  --neon-green: #55F991;
+}
+
+html, body {
+  margin: auto;
+  padding-top: 20px;
+  width: 500px;
+  background: #1F2937;
+}
+
+/* Header Section */
+
+.hero {
+  color: white;
+  font-family: 'Karla';
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.025em;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.neon-green {
+  color: var(--neon-green);
+}
+
+p {
+  margin-top: -20px;
+  color: #D5D4D8;
+}
+
+/* User Input Section */
+
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#gen-btn {
+  background-color: #10B981;
+  color: white;
+  width: 225px;
+  border-radius: 6px;
+  border: none;
+  margin: 10px;
+  font-size: 14px;
+}
+
+img {
+  margin-right: 10px;
+  width: 12px;
+}
+
+.btn-text {
+  position: relative;
+  top: -2px;
+}
+
+#pw-len {
+  width: 221px;
+  font-size: 13px;
+  height: 36px;
+  border-radius: 6px;
+  border: 2px solid #10B981;
+  margin: 10px;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #2F3E53;
+  width: 475px;
+}
+
+/* Results Section */
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.password {
+  text-align: center;
+  margin-top: 25px;
+  width: 225px;
+  height: 42px;
+  border-radius: 6px;
+  background: #273549;
+  border: none;
+  margin: 10px;
+  color: var(--neon-green);
+  font-weight: bold;
+}
+
+.password::placeholder {
+  color: #6B7280;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* Copy Instructions */
+
+#copy {
+  margin: auto;
+  width: 500px;
+
+  text-align: center;
+}
+
+/* Window Size <500px */
+
+@media screen and (max-width: 500px) {
+
+  html, body {
+    position: relative;
+    top: 20px;
+    width: 320px;
+  }
+
+  body {
+    border: solid 2px #10B981;
+    height: 500px;
+  }
+
+  .hero {
+    width: 280px;
+    margin: auto;
+  }
+
+  #gen-btn {
+    height: 40px;
+    margin-top: 0;
+  }
+
+  hr {
+    width: 230px;
+  }
+
+  .results {
+    margin-bottom: 20px;
+  }
+>>>>>>> 09ba8e8eb75d64fea093ec7fb099a7268516b737
 }
